@@ -1,0 +1,44 @@
+#section-contact
+  .container
+    .nine.columns
+      %h3 Contact
+      #contact-warning
+      #contact-success
+        Email successfuly sent, thank you.
+        %br/
+      %form#contactForm{:action => "#", :method => "post", :name => "contactForm"}
+        %fieldset
+          %label{:for => "contactName"}
+            Name
+            %span.required *
+          %input#contactName{:name => "contactName", :size => "30", :type => "text", :value => ""}/
+          %br/
+          %label{:for => "contactEmail"}
+            Email
+            %span.required *
+          %input#contactEmail{:name => "contactEmail", :size => "30", :type => "text", :value => ""}/
+          %br/
+          %label{:for => "contactMessage"}
+            Message
+            %span.required *
+          %textarea#contactMessage{:cols => "7", :name => "contactMessage", :rows => "6"}
+          %br/
+          %label.placeholder  
+          %button.submit Submit
+    .seven.columns
+      %h3 Testimonials
+      #box-testimonials
+        .item
+          %blockquote
+            %p.quote Pablo was the Ruby Technical Lead on a critical project for a 3Pillar client in the USA. He managed a team of 10 development and QA resources and did a fantastic job. I highly recommend Pablo for both his technical software development and leadership skills.
+            %h4 Paul Doman
+            %p.position
+              VP of Business Development,
+              %em 3Pillar Global
+        .item
+          %blockquote
+            %p.quote Pablo is a very strong developer. He has a passion for software development and has very strong technical and analytical skills. Furthermore he is able to map business challenges to software solutions, and has strong communication and client facing skills.
+            %h4 Colin deSa
+            %p.position
+              Chief Technology Officer,
+              %em 3Pillar Global

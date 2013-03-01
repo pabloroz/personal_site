@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cuba (3.1.0)
+      rack
+    haml (4.0.0)
+      tilt
+    rack (1.5.2)
+    rack-protection (1.4.0)
+      rack
+    shotgun (0.9)
+      rack (>= 1.0)
+    tilt (1.3.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cuba
+  haml
+  rack-protection
+  shotgun
+  tilt
