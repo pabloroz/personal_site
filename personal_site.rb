@@ -2,6 +2,7 @@ require "cuba"
 require "rack/protection"
 require "securerandom"
 require "cuba/render"
+require "haml"
 
 
 Cuba.use Rack::Session::Cookie, :secret => SecureRandom.hex(64)
