@@ -1,10 +1,15 @@
+GIT
+  remote: git@github.com:haml/haml.git
+  revision: 0cc5c437a9019530816d1507794327667d2d73d0
+  specs:
+    haml (4.1.0.alpha.0)
+      tilt
+
 GEM
   remote: https://rubygems.org/
   specs:
     cuba (3.1.0)
       rack
-    haml (4.0.0)
-      tilt
     rack (1.5.2)
     rack-protection (1.4.0)
       rack
@@ -17,7 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   cuba
-  haml
+  haml!
   rack-protection
   shotgun
   tilt
